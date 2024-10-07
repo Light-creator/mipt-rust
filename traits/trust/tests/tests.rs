@@ -1,5 +1,5 @@
 use trust::{
-    CheatingAgent, CooperatingAgent, CopycatAgent, DetectiveAgent, Game, GrudgerAgent, RoundOutcome,
+    CheatingAgent, CooperatingAgent, CopycatAgent, DetectiveAgent, Game, GrudgerAgent, RoundOutcome, Agent,
 };
 
 fn test_game<'a>(mut game: Game, expected_outcomes: impl IntoIterator<Item = &'a RoundOutcome>) {
